@@ -1,0 +1,39 @@
+{
+  "User": {
+    "id": {
+      "int": {
+        "min": 1
+      }
+    },
+    "firstName": {
+      "string": {}
+    },
+    "lastName": {
+      "string": {}
+    },
+    "email": {
+      "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+    },
+    "phoneNumber": {
+      "regexp": "#d{0,}"
+    },
+    "longitude": {
+      "float": {}
+    },
+    "latitude": {
+      "float": {}
+    },
+    "dialCode": {
+      "regexp": "#^+[0-9]"
+    },
+    "countryCode": {
+      "string": {}
+    },
+    "verifiedEmail": {
+      "boolean": {}
+    },
+    "verifiedPhone": {
+      "boolean": {}
+    }
+  }
+}
